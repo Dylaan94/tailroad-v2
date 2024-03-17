@@ -11,7 +11,7 @@ export default function SimpleButtonLink({
 }: SimpleButtonLinkProps) {
   return internalLink ? (
     <Link
-      className={`${bgColour} ${textColour} my-6 px-4 py-2 rounded-lg block w-fit `}
+      className={`${bgColour} ${textColour} my-6 hover:bg-white hover:text-primary-green border border-primary-green px-4 py-2 lg:text-lg rounded-lg block w-fit `}
       href={link}
     >
       {text}

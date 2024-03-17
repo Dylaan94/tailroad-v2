@@ -9,8 +9,18 @@ export interface SimpleButtonLinkProps {
 }
 
 export interface ColumnTextLinkProps {
-  mainText: JSX.Element;
-  subText: JSX.Element;
+  mainText: string;
+  subText: string[];
   linkText: string;
   linkUrl: string;
+}
+
+export interface Brand {
+  name: string;
+  image: string;
+}
+
+export interface OurBrandsProps {
+  header: string;
+  brands: Brand[];
 }

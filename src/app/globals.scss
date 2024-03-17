@@ -11,3 +11,7 @@
 .kaisei-decol {
   font-family: "Kaisei Decol", sans-serif;
 }
+
+main {
+  @apply kaisei-decol;
+}
